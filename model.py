@@ -36,7 +36,7 @@ class TodoItems(BaseModel):
   todos: List[TodoItem]
 
   class Config:
-    schema_extra = {
+    json_schema_extra = {
         "example": {
             "todos": [
                 {
